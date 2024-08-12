@@ -1,0 +1,67 @@
+body {
+    background-image: linear-gradient(to right, blanchedalmond, rgb(241, 214, 162));
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:'Courier New';
+}
+
+p {
+    font-family: 'Lucida Sans';
+}
+
+a {
+    font-family: 'Lucida Sans';
+    color:rgb(117, 72, 20)
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.media { /* for photos and videos */
+    background-color: antiquewhite;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin: 8px;
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+    display: inline-block;
+}
+
+.table-wrapper {
+    border: 2px solid gray;
+    border-radius: 10px;
+    overflow: hidden;
+    display: inline-block;
+}
+
+table {
+    border: none;
+    margin: 0px;
+    border-collapse: collapse;
+    
+}
+
+th, td {
+    border: 1px solid gray;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-family: 'Lucida Sans';
+}
+
+th {
+    background-color: rgb(255, 185, 159);
+}
+
+tr {
+    background-color: bisque;
+}
+
+li {
+    color: rgb(60, 68, 35);
+    font-family: 'Lucida Sans';
+}
