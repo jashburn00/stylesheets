@@ -2,70 +2,86 @@
 <html>
 
 <head>
-  <title>Brown Bears</title>
-  <link rel="stylesheet" href="https://jashburn00.github.io/stylesheets/mountain.css">
+  <title>Example</title>
+  <link rel="stylesheet" href="./mountain.css">
 </head>
 
 <body>
   <nav>
-    <a href="#">Brown Bear</a>
-    <a href="#">About Me</a>
+    <a href="#"><btn class="navbtn">Some Link</btn></a>
+    <a href="#"><btn class="navbtn">Some Link</btn></a>
   </nav>
-  <h1>The Brown Bear</h1>
-  <nav>
+  <h1 >Mountain Style Sheet</h1>
+  <ul>
+    <li><a href="#overview">Overview</a></li>
+    <li><a href="#media-examples">Media Examples</a></li>
+  </ul>
+  <br>
+  <div id="overview">
+    <h2>Overview</h2>
+    <p>
+        This stylesheet is inspired by Colorado's abundant nature and mountain scenery. The 
+        <strong>color scheme</strong> includes softer and generally warmer colors, along with some rich greens. 
+        Borders are a soft gray so as to clearly define the edges of certain elements without the jarring strength
+        of solid black.
+    </p>
+    <a href="https://www.google.com/search?sca_esv=03c2802def3a1699&rlz=1C1OPNX_enUS1073US1073&sxsrf=ADLYWILMXL-TZ9rG3RWG3Yk4HJ9ZUorNuw:1723489426784&q=mountain+colors&udm=2&fbs=AEQNm0Aa4sjWe7Rqy32pFwRj0UkWd8nbOJfsBGGB5IQQO6L3J03RPjGV0MznOJ6Likin94oP98_3DIGuLD8xrOA6pey3cUiRzji0nR4ki6I9xIp4XTGavmJGuKMVEdoTEgugA71mXAeytHYLfepn8jOUduq022hRVtNT1ky0j0NwZDsiUAMmL7r8XYh4-zZP4HW-0ZyhRTsfThdXI23IjjSuGQtO9oZQkA&sa=X&ved=2ahUKEwjD2bq4kvCHAxUuDTQIHXUrKZQQtKgLegQIDBAB&biw=1920&bih=959&dpr=1" target="_blank">More mountain colors</a>
+    <br><br>
+    <h3>Included Elements</h3>
     <ul>
-      <li><a href="#introduction">Introduction</a></li>
-      <li><a href="#habitat">Habitat</a></li>
-      <li><a href="#media">Media</a></li>
+      <li>body</li>
+      <li>div</li>
+      <li>headers, p, & a elements</li>
+      <li>nav & buttons (.navbtn)</li>
+      <li>media wrapper class (.media)</li>
+      <li>caption class for media (.caption)</li>
+      <li>tables & table wrapper class (.table-wrapper)</li>
     </ul>
-  </nav>
-  <div id="introduction">
-    <h2>About Brown Bears</h2>
-    <p>The brown bear (<em>Ursus arctos</em>) is native to parts of northern Eurasia and North America. Its conservation status is currently <strong>Least Concern</strong>.<br /><br /> There are many subspecies within the brown bear species, including the
-      Atlas bear and the Himalayan brown bear.</p>
-    <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank">Learn More</a>
-    <h3>Species</h3>
-    <ul>
-      <li>Arctos</li>
-      <li>Collarus</li>
-      <li>Horribilis</li>
-      <li>Nelsoni (extinct)</li>
-    </ul>
-    <h3>Features</h3>
-    <p>Brown bears are not always completely brown. Some can be reddish or yellowish. They have very large, curved claws and huge paws. Male brown bears are often 30% larger than female brown bears. They can range from 5 feet to 9 feet from head to toe.</p>
+    <br>
   </div>
-  <div id="habitat">
-    <h2>Habitat</h2>
-    <h3>Countries with Large Brown Bear Populations</h3>
+  <div>
+    <h2>More about Colorado</h2>
+    <h3>Things to do in Colorado</h3>
     <ol>
-      <li>Russia</li>
-      <li>United States</li>
-      <li>Canada</li>
+      <li>Hiking</li>
+      <li>Skiing</li>
+      <li>Biking</li>
+      <li>Fishing</li>
     </ol>
-    <h3>Countries with Small Brown Bear Populations</h3>
-    <p>Some countries with smaller brown bear populations include Armenia, Belarus, Bulgaria, China, Finland, France, Greece, India, Japan, Nepal, Poland, Romania, Slovenia, Turkmenistan, and Uzbekistan.</p>
+    <h3>Things to not do in Colorado</h3>
+    <p>Please avoid starting a forest fire. Colorado has wildfires every summer season. Through 
+        proper care when enjoying the outdoors, you can potentially reduce the costs of firefighting and damages
+        for everyone.
+    </p>
   </div>
-  <h2>Media</h2>
-  
-  <div class="table-wrapper">
-    <table>
-      <thead>
-        <th colspan="2"><h3 class="bold">mibals</h3></th>
-      </thead>
-      <tr>
-        <td>my</td>
-        <td>balls</td>
-      </tr>
-      <tr>
-        <td>suck</td>
-        <td>em</td>
-      </tr>
-    </table>
-  </div>
-  
-  <div class="media" style="width: 350px; height: 200px; background-image: url('https://content.codecademy.com/courses/web-101/web101-image_brownbear.jpg')"></div>
-  <div class="media" style="width: 320px; height: 230px;">
-    <video src="https://content.codecademy.com/courses/freelance-1/unit-1/lesson-2/htmlcss1-vid_brown-bear.mp4" height="240" width="320" controls>Video not supported</video>
+  <br>
+  <div id="media-examples">
+    <h2>Media Examples</h2>
+    
+    <div class="table-wrapper" style="width: 560px; height: 315px;">
+        <table>
+        <thead>
+            <th colspan="2"><h3 class="bold">example table</h3></th>
+        </thead>
+        <tr>
+            <td>some</td>
+            <td>data</td>
+        </tr>
+        <tr>
+            <td>more</td>
+            <td>data</td>
+        </tr>
+        </table>
+    </div>
+    
+    <div class="media" style="width: 560px; height: 315px; background-image: url('https://storage.googleapis.com/wordpress_wpcontent/2020/11/bf52dea2-spc1298.jpg')">
+        <div class="caption" style="width: 30%">
+            <p>I am a caption.</p>
+        </div>
+    </div>
+    <div class="media" style="width: 560px; height: 315px;">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/9Gh44EYQ2zw?si=O3Mj_eCPswKnGH67" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    
+    </div>
   </div>
 
 </body>
